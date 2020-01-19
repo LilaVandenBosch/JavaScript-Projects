@@ -40,13 +40,13 @@ console.log(7+7);
 // Y = 10;
 // document.write(X === Y);
 
-// X = 82;
-// Y = "82";
-// document.write(X === Y);
+X = 82;
+Y = "82";
+document.write(X === Y);
 
-// A = "Magnus";
-// B = "Magnus";
-// document.write(A === B)
+A = "Magnus";
+B = "Magnus";
+document.write(A === B)
 
 // document.write(5 > 2 && 10 > 4);
 
