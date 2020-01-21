@@ -2,6 +2,10 @@ window.alert("Hello, World!");
 
 document.write('Hello, World!');
 
+document.write("Lisa told Bart, \"Knock it off, Bart! Or I'll tell dad!\"<br> \"Eat my shorts!\" Bart Responded.");
+
+document.write("Lila told Jake, \"You are such a cute boy!\"<br> \"Thank you!\" Jake Responded.");
+
 var A= "This is a string";
 
 document.write(A);
@@ -19,8 +23,12 @@ var B= B.fontcolor("red");
 document.write(B)
 
 var Family= "The Arezzinis", Dad = "Jeremiah", Mom = "Hermoine", Daughter = "Penny", Son = "Zorro";
-vat family= family.fontcolor("green");
+var family= family.fontcolor("green");
 document.write(Dad);
+
+var Person = Friend1 = "Lila", Friend2 = "Ellie", Friend3 = "Charlie";
+var Person = Person.fontcolor("Red");
+document.write(Friend2);
 
 var blues = "I have the blues.";
 var blues = blues.fontcolor("blue");
