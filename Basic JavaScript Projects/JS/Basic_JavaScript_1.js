@@ -4,7 +4,7 @@ document.write('Hello, World!');
 
 document.write("Lisa told Bart, \"Knock it off, Bart! Or I'll tell dad!\"<br> \"Eat my shorts!\" Bart Responded.");
 
-document.write("Lila told Jake, \"You are such a cute boy!\"<br> \"Thank you!\" Jake Responded.");
+document.write("Lila told Jake, \"You are such a nice boy!\"<br> \"Thank you!\" Jake Responded.");
 
 var A= "This is a string";
 
@@ -34,6 +34,10 @@ var blues = "I have the blues.";
 var blues = blues.fontcolor("blue");
 document.write(blues);
 
-document.write(3+3
+document.write(3+3);
     
-    <button onclick ="alert('Hello')">Click me.</button>)
+function My_First_Function() {
+    var str = "This text is green!";
+    var result = str.fontcolor("green");
+    document.getElementById("Green_Text").innerHTML = result;
+}
