@@ -45,18 +45,18 @@ function Age_Function() {
         else {
             Vote = "You are not old enough to vote!";
         }
-        document.getElementById("Age").innerHTML = Vote;
+        document.getElementById("Eligibility").innerHTML = Vote;
 }
 
 function Driving_Function() {
-    Age = document,getElementById("Age2").value;
+    Age = document.getElementById("Age2").value;
     if (Age >= 16) {
         Drive = "You are old enough to get your drivers license!";
     }
     else {
         Drive = "You are not old enough to get your drivers license.";
     }
-    document.getElementById("Age2").innerHTML = Drive;
+    document.getElementById("Allowed").innerHTML = Drive;
 }
 
 function Time_function() {
